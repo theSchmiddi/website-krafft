@@ -1,0 +1,18 @@
+.header-container {
+    width: 100%;
+    max-height: 80px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: aquamarine;
+  }
+  
+  .header-logo {
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .header-logo img {
+    height: 50px; 
+    width: auto; 
+  }

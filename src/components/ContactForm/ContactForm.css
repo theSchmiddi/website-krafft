@@ -1,0 +1,50 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.submission-confirmation {
+    text-align: center;
+    padding: 20px;
+}
+
+.submission-confirmation div {
+    margin-top: 20px;
+}
+
+.submission-confirmation a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
